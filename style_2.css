@@ -59,6 +59,7 @@ p {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 .odkazy {
@@ -89,7 +90,6 @@ a {
 
 .facebook a:hover {
     background-color: #f1c40f;
-    
 }
 
 .odkazy a {
