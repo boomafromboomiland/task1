@@ -19,4 +19,84 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.profil {
+    max-width: 300px;
+    background-color: #34495e;
+}
+
+.hlavicka {
+    max-height: 200px;
+}
+h1 {
+    background-color: #34495e;
+    display: block;
+    color: white;
+    font-size: 20px;
+    max-width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+img {
+    display: inline;
+    position: static;
+    background-color: #34495e;
+    margin-right: 100px;
+    margin-top: 0px;
+    width: 300px;
+    max-width: 100%;
+    height: 200px;}
+
+.logo {
+    display: inline;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    right: 189px;
+    border-radius: 50%;
+    top: 14px;
+    background: #b92e81;
+    margin-bottom: Opx;
+    margin-top: 0px;
+}
+p {
+    background-color: #34495e;
+    font-size: 14px;
+    display: block;
+    color: #bdc3c7;
+    width: 300px;
+    max-width: 300px;
+    padding-left: 20px;
+}
+
+li {
+    display: block;
+    color: #bdc3c7;
+    border-top: 1px solid #bdc3c7;
+    border-bottom: 1px solid #bdc3c7;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+li.portfolio {
+    padding: 15px 50px;
+    max-width: auto;
+    margin-bottom: 0px;
+}
+li.facebook {
+    border-right: none;
+    border-top: none;
+    padding: 15px 20px;
+}
+li.twitter {
+    border-top: none;
+    padding: 15px 20px;
+    background-color: #3498db;
+    color: white;
+    box-shadow: 0px 5px 5px 0px #34495e;
 }
